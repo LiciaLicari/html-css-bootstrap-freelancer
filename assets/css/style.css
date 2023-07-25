@@ -5,8 +5,37 @@
 
 
 .line {
-    width: 130px;
+    width: 100px;
     height: 2px;
     border-radius: 2px;
     
+    
+}
+
+#skills nav {
+    font-size: 0.9rem;
+    flex-wrap: nowrap;
+}
+
+@media screen and (min-width:576px) {
+    
+}
+
+@media screen and (min-width:768px) {
+
+    . container-sm .avatar{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+}
+
+@media screen and (min-width:1200px) {
+
+}
+
+@media screen and (min-width:1400px) {
+
 }
