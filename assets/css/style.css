@@ -26,6 +26,11 @@
     border-color: rgba(255, 255, 255, 0.51);
 }
 
+.card {
+    background-color: transparent;
+    border: 0;
+}
+
 
 
 .divider-white,
@@ -73,6 +78,22 @@
 #skills nav {
     font-size: 0.9rem;
     flex-wrap: nowrap;
+}
+
+.footer > .quick_links a {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1/ 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer .top p > a {
+    color: var(--fl-primary);
 }
 
 @media screen and (min-width:576px) {
