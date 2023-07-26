@@ -1,26 +1,64 @@
-
-.divider {
-    width: 50%;
+:root{
+    --bf-primary: #1abc9c;
+    --bf-dark: #2c3e50;
+    --bf-dark-soft: #3a546d;
 }
 
 
+.ms-bg-primary {
+    background-color: var(--bf-primary);
+}
+
+.ms-bg-dark {
+    background-color: var(--bf-dark);
+}
+
+.ms-bg-dark-soft {
+    background-color: var(--bf-dark-soft);
+}
 
 
-.line_white {
-    width: 100px;
-    height: 2px;
-    border-radius: 2px;
+.divider-white,
+.divider-dark {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.divider-white .line,
+.divider-dark .line {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.divider-white .line {
+    border: 2px solid white;
+}
+
+.divider-white .fa-star {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    background-color: var(--bf-primary);
+    width: 50px;
+    transform: translate(-50%, 0);
+    color: white;
+}
+
+.divider-dark .line {
+    border: 2px solid var(--bf-dark);
+}
+
+.divider-dark .fa-star {
+    position: absolute;
+    top: 2px;
+    left: 50%;
     background-color: white;
-    
+    width: 50px;
+    transform: translate(-50%, 0);
+    color: var(--bf-dark);
 }
 
-.line_black {
-    width: 100px;
-    height: 2px;
-    border-radius: 2px;
-    background-color: black;
-    
-}
 
 #skills nav {
     font-size: 0.9rem;
