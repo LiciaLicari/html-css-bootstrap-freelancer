@@ -80,11 +80,11 @@
     flex-wrap: nowrap;
 }
 
-footer > .quick_links a {
+footer .quick_links a {
     border: 1px solid white;
     border-radius: 50%;
     width: 50px;
-    aspect-ratio: 1/ 1;
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
