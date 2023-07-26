@@ -17,6 +17,11 @@
     background-color: var(--bf-dark-soft);
 }
 
+.btn {
+    background-color: var(--bf-primary);
+    color: white;
+}
+
 
 
 .divider-white,
